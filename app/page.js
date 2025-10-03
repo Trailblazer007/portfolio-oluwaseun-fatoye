@@ -1,4 +1,3 @@
-import Nav from "./_components/Nav";
 import LeftCard from "./_components/LeftCard";
 import RightCard from "./_components/RightCard";
 
