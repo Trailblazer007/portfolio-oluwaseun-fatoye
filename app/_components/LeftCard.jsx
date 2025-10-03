@@ -32,8 +32,12 @@ export default function LeftSide() {
                     {/* Name and Profession */}
                     <div className="flex-1 my-auto ml-2">
                         <h2 className="text-2xl font-bold text-white">Oluwaseun Fatoye</h2>
-                        <p className="text-gray-300 mt-1 border border-gray-500 px-2 rounded-sm w-fit bg-black/30">Frontend Developer</p>
-                        <p className='text-gray-300 mt-5 text-xs shadow-xl p-2 rounded-sm'>Frontend with a Twist: Clean UI, Killer Performance</p>
+                        <p className="text-gray-300 mt-1 border border-gray-500 px-2 rounded-sm w-fit bg-black/30">
+                            Frontend Developer
+                        </p>
+                        <p className="text-gray-300 mt-1 text-xs shadow-xl p-2 rounded-sm break-words max-w-[180px]">
+                            Frontend with a Twist: Clean UI, Killer Performance
+                        </p>
                     </div>
 
                     {/* Show Contacts Button */}
@@ -48,8 +52,10 @@ export default function LeftSide() {
                 </div>
 
                 {/* Contact Info - Animated Section */}
-                <div className={`border-t border-gray-600 overflow-hidden transition-all duration-500 ease-in-out ${showContacts ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'
-                    }`}>
+                <div
+                    className={`border-t border-gray-600 overflow-hidden transition-all duration-500 ease-in-out ${showContacts ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'
+                        } mt-6`}
+                >
                     <div className="p-6 space-y-4">
                         {/* Email */}
                         <div className="flex items-center gap-4">
