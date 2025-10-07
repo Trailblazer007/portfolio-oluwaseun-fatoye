@@ -35,7 +35,7 @@ export default function LeftSide() {
                         <p className="text-gray-300 mt-1 border border-gray-500 px-2 rounded-sm w-fit bg-black/30">
                             Frontend Developer
                         </p>
-                        <p className="text-gray-300 mt-1 text-xs shadow-xl p-2 rounded-sm break-words max-w-[180px]">
+                        <p className="text-gray-300 mt-1 text-xs shadow-xl shadow-black/50 p-2 rounded-sm break-words max-w-[180px]">
                             Frontend with a Twist: Clean UI, Killer Performance
                         </p>
                     </div>

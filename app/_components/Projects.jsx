@@ -26,7 +26,7 @@ const stackIcons = {
 
 function Projects() {
     return (
-        <div>
+        <div id="projects">
             <h2 className="text-2xl font-bold mb-6">Things I've built</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 {projects.map((project, index) => (
@@ -42,7 +42,7 @@ function Projects() {
                             src={project.imageUrl}
                             alt={project.title}
                             width={400}
-                            height={192}
+                            height="auto"
                             className="w-full h-48 object-cover"
                         />
 

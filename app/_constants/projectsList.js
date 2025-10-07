@@ -11,7 +11,7 @@ const projects = [
     category: "Frontend Project",
     title: "Dadjokes App",
     imageUrl: dadjokesImage,
-    url: "https://dadjokes-4rc3pk55f-oluwaseun-fatoye-s-projects.vercel.app/",
+    url: "https://dadjokes-2d0u7cou2-oluwaseun-fatoye-s-projects.vercel.app/",
     description:
       "I built a dynamic Vue.js and Nuxt.js application that fetches random dad jokes from an API and includes a keyword search feature.",
     stack: ["Tailwind", "TypeScript", "Vue.js", "Nuxt.js", "Vite"],

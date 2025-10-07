@@ -1,6 +1,6 @@
 function About() {
     return (
-        <div>
+        <div id="about">
             <h2 className="text-2xl font-bold mb-4">About Me</h2>
             <p className="text-gray-300 leading-relaxed mb-6">
                 Results-driven Frontend Developer with 6 years of experience building scalable, responsive web applications. Expert in HTML, CSS, JavaScript, and TypeScript, with 3+ years specializing in React and Next.js, plus recent proficiency in Vue.js and Nuxt.js. Proven track record of collaborating with cross-functional teams to deliver technical solutions that drive business objectives. Committed to combining deep technical expertise with strategic, market-aware development
