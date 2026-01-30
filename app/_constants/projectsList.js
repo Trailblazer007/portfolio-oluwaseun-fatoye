@@ -1,3 +1,5 @@
+import saasDashboardImage from "../../public/saas-dashboard.png";
+import telemetryVaultImage from "../../public/telemetry-vault.png";
 import cryptoImage from "../../public/crypto-tracker.png";
 import dadjokesImage from "../../public/dadjokes-app.png";
 import semerrImage from "../../public/semerr.png";
@@ -6,6 +8,34 @@ import divvyImage from "../../public/divvy-expense-app.png";
 import quoteGeneratorImage from "../../public/quote-generator.png";
 
 const projects = [
+  {
+    period: "January, 2026",
+    category: "Frontend Project",
+    title: "SaaS Dashboard",
+    imageUrl: saasDashboardImage,
+    url: "https://data-dash-dun.vercel.app/",
+    description:
+      "I built a SaaS-style dashboard using Next.js with Firebase Authentication, featuring secure login, protected routes, and a responsive UI built with Tailwind and shadcn/ui.",
+    stack: [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Tailwind",
+      "Firebase",
+      "shadcn/ui",
+    ],
+  },
+  {
+    period: "January, 2026",
+    category: "Frontend Project",
+    title: "Telemetry Vault",
+    imageUrl: telemetryVaultImage,
+    url: "https://telemetry-vault-seven.vercel.app/",
+    description:
+      "I built a telemetry dashboard that allows filtering, sorting, and aggregating logs, metrics, and traces with a fully typed data model and client-side querying.",
+    stack: ["Next.js", "React", "TypeScript", "Vitest", "Testing Library"],
+  },
+
   {
     period: "September, 2025",
     category: "Frontend Project",

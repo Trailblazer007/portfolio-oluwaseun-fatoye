@@ -10,6 +10,7 @@ const skills = [
   "Vue.js",
   "Nuxt.js",
   "Vite",
+  "Vitest",
   "Wordpress",
   "Git",
   "GitHub",
@@ -19,6 +20,7 @@ const skills = [
   "Postman",
   "Axios",
   "Figma",
+  "Firebase",
 ];
 
 export default skills;

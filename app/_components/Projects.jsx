@@ -8,7 +8,9 @@ import {
     SiVuedotjs,
     SiNuxtdotjs,
     SiVite,
-    SiShadcnui
+    SiShadcnui,
+    SiFirebase,
+    SiVitest
 } from 'react-icons/si';
 
 // Icon mapping with their respective colors
@@ -21,7 +23,8 @@ const stackIcons = {
     'Nuxt.js': { icon: SiNuxtdotjs, color: 'text-[#00DC82]', shadow: 'shadow-[#00DC82]/20' },
     'Vite': { icon: SiVite, color: 'text-[#646CFF]', shadow: 'shadow-[#646CFF]/20' },
     'shadcn/ui': { icon: SiShadcnui, color: 'text-white', shadow: 'shadow-white/20' },
-    'React,js': { icon: SiReact, color: 'text-[#61DAFB]', shadow: 'shadow-[#61DAFB]/20' }
+    'Firebase': { icon: SiFirebase, color: 'text-[#FFCA28]', shadow: 'shadow-[#FFCA28]/20' },
+    'Vitest': { icon: SiVitest, color: 'text-[#5A29E4]', shadow: 'shadow-[#5A29E4]/20' },
 };
 
 function Projects() {

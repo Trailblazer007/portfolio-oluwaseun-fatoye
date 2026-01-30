@@ -1,7 +1,7 @@
 import {
     SiHtml5, SiCss3, SiJavascript, SiTypescript, SiReact, SiNextdotjs,
     SiVuedotjs, SiNuxtdotjs, SiVite, SiWordpress, SiGit, SiGithub,
-    SiVercel, SiNetlify, SiPostman, SiFigma, SiTailwindcss
+    SiVercel, SiNetlify, SiPostman, SiFigma, SiTailwindcss, SiFirebase, SiVitest
 } from 'react-icons/si';
 import { TbApi } from 'react-icons/tb';
 
@@ -35,9 +35,11 @@ const SkillsGrid = () => {
                 { name: "GitHub", icon: SiGithub, color: "#181717" },
                 { name: "Vercel", icon: SiVercel, color: "#000000" },
                 { name: "Netlify", icon: SiNetlify, color: "#00C7B7" },
+                { name: "Firebase", icon: SiFirebase, color: "#FFCA28" },
                 { name: "WordPress", icon: SiWordpress, color: "#21759B" },
                 { name: "Figma", icon: SiFigma, color: "#F24E1E" },
                 { name: "Postman", icon: SiPostman, color: "#FF6C37" },
+                { name: "Vitest", icon: SiVitest, color: "#6E9F18" },
                 { name: "Axios", icon: TbApi, color: "#5A29E4" }
             ]
         },
