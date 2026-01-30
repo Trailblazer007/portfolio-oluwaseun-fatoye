@@ -1,5 +1,5 @@
-import saasDashboardImage from "../../public/saas-dashboard.png";
-import telemetryVaultImage from "../../public/telemetry-vault.png";
+import saasDashboardImage from "../../public/saasDashboardImage.png";
+import telemetryVaultImage from "../../public/telemetryVaultImage.png";
 import cryptoImage from "../../public/crypto-tracker.png";
 import dadjokesImage from "../../public/dadjokes-app.png";
 import semerrImage from "../../public/semerr.png";
